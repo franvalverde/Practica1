@@ -63,4 +63,4 @@ Una vez dentro creamos tres tablas que contendran los comentarios, las noticias 
 Copia local (git)
 -----------------
 
-
+En el portal web aparece en el lateral derecho un dirección (la misma que usamos en ssh pero con extension git): <i></i>
