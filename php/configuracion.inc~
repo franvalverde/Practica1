@@ -1,0 +1,5 @@
+<?php
+	define("DB_DSN", "mysql:".$_ENV['OPENSHIFT_MYSQL_DB_HOST'].";dbname=".$_ENV['OPENSHIFT_APP_NAME']);
+	define("DB_USUARIO", $_ENV['OPENSHIFT_MYSQL_DB_USERNAME']); 
+	define("DB_CONTRASENIA",$_ENV['OPENSHIFT_MYSQL_DB_PASSWORD']);
+?>
