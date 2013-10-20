@@ -58,5 +58,9 @@ Añadiendo BD (phpmyadmin)
 Para acceder solo hay que pulsar al enlace que tenemos en el panel de configuración de openshift e intrudir el usuario y contraseña que nos facilita mysql.
 Una vez dentro creamos tres tablas que contendran los comentarios, las noticias y los usuarios.
 
-[[http://s2.subirimagenes.com/imagen/previo/thump_8663891myadmin.png]]
-[http://s2.subirimagenes.com/imagen/previo/thump_8663891myadmin.png]
+<img src="http://s2.subirimagenes.com/imagen/previo/thump_8663891myadmin.png">
+
+Copia local (git)
+-----------------
+
+
