@@ -24,3 +24,4 @@ Desde la interfaz web podemos clickar en la seccion de add database mysql y cont
 
 Para phpmyadmin (una vez que se tiene instalado mysql) pulsamos en add tool y elegimos phpymadmin 4.0 y continuamos con el asistente.
 
+<i> Es importante anotar los datos de autentificación que nos facilita openShift cuando agregamos tanto mySql como phpmyadmin. En ellos da información para conectarnos via web o via rhc.</i>
