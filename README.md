@@ -1,4 +1,8 @@
 Practica1
 =========
 
-Practica 1 de Infraestructura Virtual
+Autor: Francisco Valverde Villalba
+==================================
+
+Licencia: GPL v3
+----------------
