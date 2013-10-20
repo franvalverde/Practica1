@@ -14,4 +14,13 @@ Los pasos para crear y desplegar dicha aplicación en OpenShift:
 
 Para registrar la nueva aplicación pulsamos en add application una vez registrados. En la ventana que se nos abre buscamos el tipo de aplicación que vamos a crear, en mi caso PHP 5.3 (PHP es un lenguaje de scripting del lado del servidor de propósito general originalmente diseñado para el desarrollo web para crear páginas web dinámicas.).
 
-Indicamos la dirección publica URL que tendrá [http://periodico-franvalverde.rhcloud.com]
+Indicamos la dirección publica URL que será: <i>http://periodico-franvalverdeP1.rhcloud.com</i>
+
+* <strong>Agregar Cartuchos</strong>
+
+Agregamos otros instrumentos necesarios para que nuestro periodico funcione correctamente. En primer lugar añadimos mySQL 5.1 y posteriormente phpmyadmin, si no se tiene instalado mySQL no se podrá instalar phpmyadmin.
+
+Desde la interfaz web podemos clickar en la seccion de add database mysql y continuamos con el asistente.
+
+Para phpmyadmin (una vez que se tiene instalado mysql) pulsamos en add tool y elegimos phpymadmin 4.0 y continuamos con el asistente.
+
