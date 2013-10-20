@@ -88,4 +88,4 @@ Ver aplicacion (navegador)
 --------------------------
 
 Para ver la aplicación en funcionamiento: <i>http://periodico-franvalverdep1.rhcloud.com</i>
-<img src="">
+<img src="http://s2.subirimagenes.com/imagen/previo/thump_8663958web.png">
