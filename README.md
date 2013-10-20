@@ -37,3 +37,9 @@ Instalamos rhc:
 sudo apt-get install rubygems
 sudo gem install rhc
 </pre>
+Configuramos rhc:
+<pre>
+rhc setup
+//introducimos usuario y contraseña de openshit
+//creamos token y generamos llave publica de ssh
+</pre>
