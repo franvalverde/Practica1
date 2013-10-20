@@ -70,3 +70,7 @@ git clone ssh://52..4@periodico-franvalverdep1.rhcloud.com/~/git/periodico.git/
 </pre>
 
 Se nos crea una carpeta periodico donde dispone de varias carpetas entre ellas php que es donde copiaremos nuestra aplicación, en mi caso, los archivos .php, .css y .html para el correcto uso del periodico.
+
+Configurando aplicación (gedit)
+
+Una vez que introducimos todos los archivos de la aplicación dentro de la carpeta php, modificaremos el archivo de conexion a la base de datos para que se conecte con la base de datos de openshift.
