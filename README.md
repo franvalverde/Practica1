@@ -6,8 +6,8 @@ Licencia: GPL v3
 </pre>
 En este documento hablo sobre el despliegue de una aplicación PHP, en el PaaS llamado OpenShift de RedHat. Concretamente mi practica se basa en un periodico digital el cual funciona en lenguaje PHP y apoyandose en una base de datos con la que nos conectamos a ella por mySQL.
 
-Pasos en OpenShift
-------------------
+Registro (OpenShift)
+--------------------
 Los pasos para crear y desplegar dicha aplicación en OpenShift:
 
 * <strong>Registrar la aplicación en la interfaz web de OpenShift</strong>
@@ -25,3 +25,15 @@ Desde la interfaz web podemos clickar en la seccion de add database mysql y cont
 Para phpmyadmin (una vez que se tiene instalado mysql) pulsamos en add tool y elegimos phpymadmin 4.0 y continuamos con el asistente.
 
 <i> Es importante anotar los datos de autentificación que nos facilita openShift cuando agregamos tanto mySql como phpmyadmin. En ellos da información para conectarnos via web o via rhc.</i>
+
+
+Conexión a BD (Terminal Ubuntu)
+-------------------------------
+
+Para poder acceder a phpmyadmin necesitamos realizar una configuración previa, en caso de no hacerlo nos motrará el error 2002 de mysql.
+
+Instalamos rhc:
+<pre>
+sudo apt-get install rubygems
+sudo gem install rhc
+</pre>
