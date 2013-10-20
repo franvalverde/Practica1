@@ -63,4 +63,10 @@ Una vez dentro creamos tres tablas que contendran los comentarios, las noticias 
 Copia local (git)
 -----------------
 
-En el portal web aparece en el lateral derecho un dirección (la misma que usamos en ssh pero con extension git): <i></i>
+En el portal web aparece en el lateral derecho un dirección (la misma que usamos en ssh pero con extension git): <i>ssh://52..294@periodico-franvalverdep1.rhcloud.com/~/git/periodico.git/</i>. 
+Con el comando git clone realizaremos la copia tal que asi:
+<pre>
+git clone ssh://52..4@periodico-franvalverdep1.rhcloud.com/~/git/periodico.git/
+</pre>
+
+Se nos crea una carpeta periodico donde dispone de varias carpetas entre ellas php que es donde copiaremos nuestra aplicación, en mi caso, los archivos .php, .css y .html para el correcto uso del periodico.
