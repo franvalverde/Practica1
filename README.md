@@ -16,7 +16,7 @@ Para registrar la nueva aplicación pulsamos en add application una vez registra
 
 Indicamos la dirección publica URL que será: <i>http://periodico-franvalverdeP1.rhcloud.com</i>
 
-* <strong>Agregar Cartuchos</strong>
+* <strong>Agregar Utilidades</strong>
 
 Agregamos otros instrumentos necesarios para que nuestro periodico funcione correctamente. En primer lugar añadimos mySQL 5.1 y posteriormente phpmyadmin, si no se tiene instalado mySQL no se podrá instalar phpmyadmin.
 
