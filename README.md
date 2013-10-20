@@ -83,3 +83,9 @@ git add .
 git commit -m "Practica1"
 git push
 </pre>
+
+Ver aplicacion (navegador)
+--------------------------
+
+Para ver la aplicación en funcionamiento: <i>http://periodico-franvalverdep1.rhcloud.com</i>
+<img src="">
