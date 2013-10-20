@@ -32,14 +32,22 @@ Conexión a BD (Terminal Ubuntu)
 
 Para poder acceder a phpmyadmin necesitamos realizar una configuración previa, en caso de no hacerlo nos motrará el error 2002 de mysql.
 
-Instalamos rhc:
+* Instalamos rhc:
 <pre>
 sudo apt-get install rubygems
 sudo gem install rhc
 </pre>
-Configuramos rhc:
+* Configuramos rhc:
 <pre>
 rhc setup
 //introducimos usuario y contraseña de openshit
 //creamos token y generamos llave publica de ssh
+</pre>
+
+* Conectarnos por ssh
+
+En el portal web aparece en el lateral derecho un dirección con la cual podemos acceder por ssh: <i>ssh 5263....@periodico-franvalverdep1.rhcloud.com</i>. 
+Desde la linea de comandos la escribimos y accederemos a nuestra aplicación via ssh. Lo siguiente sera poner la siguiente orden con la cual ya si nos dejará acceder desde phpadmin a mysql.
+<pre>
+env | grep OPENSHIFT
 </pre>
