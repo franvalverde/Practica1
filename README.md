@@ -51,3 +51,9 @@ Desde la linea de comandos la escribimos y accederemos a nuestra aplicación via
 <pre>
 env | grep OPENSHIFT
 </pre>
+
+Añadiendo BD (phpmyadmin)
+-------------------------
+
+Para acceder solo hay que pulsar al enlace que tenemos en el panel de configuración de openshift e intrudir el usuario y contraseña que nos facilita mysql.
+Una vez dentro creamos tres tablas que contendran los comentarios, las noticias y los usuarios.
