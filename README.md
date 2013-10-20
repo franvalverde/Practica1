@@ -1,11 +1,17 @@
 Practica 1
 ==========
 <pre>
-***Autor:*** **Francisco Valverde Villalba**
-***Licencia:*** **GPL v3**
+Autor: Francisco Valverde Villalba
+Licencia: GPL v3
 </pre>
 En este documento hablo sobre el despliegue de una aplicación PHP, en el PaaS llamado OpenShift de RedHat. Concretamente mi practica se basa en un periodico digital el cual funciona en lenguaje PHP y apoyandose en una base de datos con la que nos conectamos a ella por mySQL.
+
+Pasos en OpenShift
+------------------
 Los pasos para crear y desplegar dicha aplicación en OpenShift:
-<pre>
-hola
-</pre>
+
+* <strong>Registrar la aplicación en la interfaz web de OpenShift</strong>
+
+Para registrar la nueva aplicación pulsamos en add application una vez registrados. En la ventana que se nos abre buscamos el tipo de aplicación que vamos a crear, en mi caso PHP 5.3 (PHP es un lenguaje de scripting del lado del servidor de propósito general originalmente diseñado para el desarrollo web para crear páginas web dinámicas.).
+
+Indicamos la dirección publica URL que tendrá [http://periodico-franvalverde.rhcloud.com]
